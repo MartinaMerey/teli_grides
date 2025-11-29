@@ -1,0 +1,36 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-image:url(/kepek/hatter.jpg);
+
+}
+
+main{
+    display: block;
+    background-color: aliceblue;
+    width: 75%;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+header{
+    background-image:url(/kepek/fejlec.jpg);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: grid;
+}
+
+footer {
+    text-align: center;
+    background-color:rgb(5, 135, 179);
+}
