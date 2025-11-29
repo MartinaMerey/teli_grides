@@ -4,7 +4,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 body{
-    background-image:url(/kepek/hatter.jpg);
+    background-image:url(kepek/hatter.jpg);
 
 }
 
@@ -18,7 +18,7 @@ main{
 }
 
 header{
-    background-image:url(/kepek/fejlec.jpg);
+    background-image:url(kepek/fejlec.jpg);
     padding: 30px;
 }
 
@@ -28,7 +28,11 @@ h1 {
 
 section {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "n g g a a";
 }
+
+
 
 footer {
     text-align: center;
